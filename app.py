@@ -346,7 +346,7 @@ def make_bar_figure(row: pd.Series):
         text=[f"{s:.1f}" for s in scores],
         textposition="outside"
     ))
-    fig.update_yaxes(range=[0, 20])
+    fig.update_yaxes(range=[0, 21])
     fig.update_layout(
         margin=dict(l=10, r=10, t=10, b=10),
         template="plotly_white",
